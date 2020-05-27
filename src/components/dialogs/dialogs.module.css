@@ -1,0 +1,92 @@
+.dialogs {
+    display: grid;
+    grid-template-areas:
+        'items messages'
+        'items addnew';
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 400px 1fr;
+    padding: 20px;
+}
+
+.dialog_items {
+    grid-area: items;
+    margin-right: 20px;
+
+}
+
+.item {}
+
+.item img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+.item a {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: darkolivegreen;
+    text-decoration: none;
+}
+
+.item a:hover {
+    color: rgba(85, 107, 47, 0.5);
+    text-decoration: none;
+}
+
+.item.active {
+    color: gold;
+}
+
+.item_link {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.dialog_messages {
+    grid-area: messages;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 10px;
+
+}
+
+.add_new_message {
+    grid-area: addnew;
+}
+
+.message {}
+
+.add_new_message {
+    display: flex;
+    width: 100%;
+}
+
+.add_new_message__block_textarea {
+    width: 85%;
+}
+
+.add_new_message__textarea {
+    text-align: left;
+}
+
+.add_new_message__textarea {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.add_new_message__block_btn {
+    width: 15%;
+}
+
+.add_new_message__button {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+
+
+}

@@ -1,0 +1,72 @@
+.users_block {
+    margin: 10px;
+    text-align: center;
+}
+
+.icon img {
+    display: inline-block;
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.users_block span {
+    display: inline-block;
+    padding: 10px;
+    /* text-align: center; */
+
+}
+
+
+
+.users_block .item {
+    display: inline-flex;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 800px;
+    padding: 10px;
+    
+}
+
+.users_block .item a {
+    color: rgb(75, 75, 75);
+}
+
+.users_block .item a:hover {
+    color: rgb(120, 120, 120);
+    text-decoration: none;
+}
+
+.users_block .item .ib {
+    width: 100px;
+    text-align: center;
+  
+}
+
+.users_block .item .inline {
+    display: inline-block;
+    width: 80%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.users_block .item .ns_cc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.users_block .item .name_status {
+    width: 65%;
+    text-align: left;
+
+}
+
+.users_block .item .name_status .name {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.users_block .item .locate {
+    text-align: left;
+
+}

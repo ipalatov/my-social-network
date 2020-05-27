@@ -1,0 +1,23 @@
+.app_wrapper {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas:
+    'head head'
+    'nav content';
+  grid-template-rows: 120px 1fr;
+  grid-template-columns: 1fr 8fr;
+}
+
+.app_wrapper__content {
+	grid-area: content;
+	background: rgb(118, 216, 159);
+	text-align: left;
+}
+
+.app_wrapper__content img {
+	display: block;
+  max-width: 50%;
+  max-height: 200px;
+	margin: 0 auto;
+}

@@ -1,0 +1,21 @@
+.navig {
+    grid-area: nav;
+    background: rgb(82, 207, 134);
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 15px;
+  }
+
+  .item a {
+    color:cornflowerblue;
+  }
+
+  a.active {
+    /* color:rgb(46, 91, 175); */
+  }
+
+  .item a:hover {
+    text-decoration: none;
+    color:rgba(100, 148, 237, 0.5);
+
+  }
