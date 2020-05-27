@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/my-social-network/static/css/main.a8a65e34.chunk.css",
+    "main.js": "/my-social-network/static/js/main.7eb9e8c3.chunk.js",
+    "main.js.map": "/my-social-network/static/js/main.7eb9e8c3.chunk.js.map",
+    "runtime-main.js": "/my-social-network/static/js/runtime-main.9c5f1280.js",
+    "runtime-main.js.map": "/my-social-network/static/js/runtime-main.9c5f1280.js.map",
+    "static/css/2.de424728.chunk.css": "/my-social-network/static/css/2.de424728.chunk.css",
+    "static/js/2.f12ecf91.chunk.js": "/my-social-network/static/js/2.f12ecf91.chunk.js",
+    "static/js/2.f12ecf91.chunk.js.map": "/my-social-network/static/js/2.f12ecf91.chunk.js.map",
+    "static/css/3.aa2afbc0.chunk.css": "/my-social-network/static/css/3.aa2afbc0.chunk.css",
+    "static/js/3.bac0371c.chunk.js": "/my-social-network/static/js/3.bac0371c.chunk.js",
+    "static/js/3.bac0371c.chunk.js.map": "/my-social-network/static/js/3.bac0371c.chunk.js.map",
+    "static/css/4.c2db8df6.chunk.css": "/my-social-network/static/css/4.c2db8df6.chunk.css",
+    "static/js/4.62f73e39.chunk.js": "/my-social-network/static/js/4.62f73e39.chunk.js",
+    "static/js/4.62f73e39.chunk.js.map": "/my-social-network/static/js/4.62f73e39.chunk.js.map",
+    "index.html": "/my-social-network/index.html",
+    "precache-manifest.05765d41919abb9f87ea0b2edaefb598.js": "/my-social-network/precache-manifest.05765d41919abb9f87ea0b2edaefb598.js",
+    "service-worker.js": "/my-social-network/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/my-social-network/static/css/2.de424728.chunk.css.map",
+    "static/css/3.aa2afbc0.chunk.css.map": "/my-social-network/static/css/3.aa2afbc0.chunk.css.map",
+    "static/css/4.c2db8df6.chunk.css.map": "/my-social-network/static/css/4.c2db8df6.chunk.css.map",
+    "static/css/main.a8a65e34.chunk.css.map": "/my-social-network/static/css/main.a8a65e34.chunk.css.map",
+    "static/js/2.f12ecf91.chunk.js.LICENSE.txt": "/my-social-network/static/js/2.f12ecf91.chunk.js.LICENSE.txt",
+    "static/media/preloader.svg": "/my-social-network/static/media/preloader.3eca7be4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9c5f1280.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.f12ecf91.chunk.js",
+    "static/css/main.a8a65e34.chunk.css",
+    "static/js/main.7eb9e8c3.chunk.js"
+  ]
+}
