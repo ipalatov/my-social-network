@@ -1,6 +1,6 @@
 import React from 'react';
 import LoginForm from './loginForm';
-import s from './login.module.css'
+// import s from './login.module.css'
 import { reduxForm } from 'redux-form';
 import { connect } from 'react-redux';
 import { login } from '../../redux/authReducer';
@@ -16,8 +16,8 @@ const WithFormLoginform = reduxForm({
 const LoginPage = (props) => {
 
     const onSubmit = (formData) => {
-        const { email, password, rememberMe } = formData;
-        props.login(email, password, rememberMe);
+        const { email, password, rememberMe, captcha } = formData;
+        props.login(email, password, rememberMe, captcha);
     }
 
     if (props.isAuth) {
@@ -27,12 +27,13 @@ const LoginPage = (props) => {
     return (
             <div>
                 <h1>Login</h1>
-                <WithFormLoginform onSubmit={onSubmit} />
+                <WithFormLoginform onSubmit={onSubmit} captchaURL={props.captchaURL} />
             </div>
         )
 }
 
 const mstp = (state) => ({
+    captchaURL: state.auth.captchaURL,
     isAuth: state.auth.isAuth
 })
 
