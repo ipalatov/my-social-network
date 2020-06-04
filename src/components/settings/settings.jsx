@@ -1,7 +1,8 @@
 import React from 'react';
 import s from './settings.module.css';
+import { withAuthRedirect } from '../../hoc/withAuthRedirect';
 
-const Setiings = () => {
+const Settings = () => {
     return (
         <div>
             Settings
@@ -13,4 +14,4 @@ const Setiings = () => {
     )
 }
 
-export default Setiings;
+export default withAuthRedirect(Settings);
